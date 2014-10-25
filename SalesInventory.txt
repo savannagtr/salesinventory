@@ -1,0 +1,464 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
+-- --------------------------------------------------
+-- Date Created: 10/24/2014 18:48:19
+-- Generated from EDMX file: C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\Model1.edmx
+-- --------------------------------------------------
+
+SET QUOTED_IDENTIFIER OFF;
+GO
+USE [SalesInventory];
+GO
+IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
+GO
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- --------------------------------------------------
+
+IF OBJECT_ID(N'[dbo].[Admin]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Admin];
+GO
+IF OBJECT_ID(N'[dbo].[Category]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Category];
+GO
+IF OBJECT_ID(N'[dbo].[Colors]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Colors];
+GO
+IF OBJECT_ID(N'[dbo].[DataLogs]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[DataLogs];
+GO
+IF OBJECT_ID(N'[dbo].[PaymentType]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[PaymentType];
+GO
+IF OBJECT_ID(N'[dbo].[Products]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Products];
+GO
+IF OBJECT_ID(N'[dbo].[Returns]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Returns];
+GO
+IF OBJECT_ID(N'[dbo].[Sales]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Sales];
+GO
+IF OBJECT_ID(N'[dbo].[Suppliers]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Suppliers];
+GO
+IF OBJECT_ID(N'[dbo].[TaxRate]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[TaxRate];
+GO
+IF OBJECT_ID(N'[dbo].[Transaction]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Transaction];
+GO
+IF OBJECT_ID(N'[dbo].[Warehouse]', 'U') IS NOT NULL
+    DROP TABLE [dbo].[Warehouse];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'Categories'
+CREATE TABLE [dbo].[Categories] (
+    [CategoryID] nvarchar(50)  NOT NULL,
+    [CategoryName] nvarchar(50)  NULL,
+    [Description] nvarchar(256)  NULL
+);
+GO
+
+-- Creating table 'Colors'
+CREATE TABLE [dbo].[Colors] (
+    [ColorID] nvarchar(50)  NOT NULL,
+    [ColorName] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'DataLogs'
+CREATE TABLE [dbo].[DataLogs] (
+    [LogID] int IDENTITY(1,1) NOT NULL,
+    [UserName] nvarchar(50)  NULL,
+    [LogDate] datetime  NULL
+);
+GO
+
+-- Creating table 'PaymentTypes'
+CREATE TABLE [dbo].[PaymentTypes] (
+    [PaymentID] nvarchar(50)  NOT NULL,
+    [PaymentType1] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'Products'
+CREATE TABLE [dbo].[Products] (
+    [ProductID] int IDENTITY(1,1) NOT NULL,
+    [ProductName] nvarchar(50)  NULL,
+    [CategoryID] nvarchar(50)  NULL,
+    [ColorID] nvarchar(50)  NULL,
+    [Price] decimal(19,4)  NULL,
+    [Description] nvarchar(256)  NULL,
+    [SupplierID] nvarchar(50)  NULL,
+    [WarehouseID] nvarchar(50)  NULL,
+    [DateAdded] datetime  NULL,
+    [Username] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'Returns'
+CREATE TABLE [dbo].[Returns] (
+    [ReturnID] int IDENTITY(1,1) NOT NULL,
+    [ProductID] int  NULL,
+    [CategoryID] nvarchar(50)  NULL,
+    [ColorID] nvarchar(50)  NULL,
+    [Price] decimal(19,4)  NULL,
+    [TaxID] nvarchar(50)  NULL,
+    [PaymentID] nvarchar(50)  NULL,
+    [DateReturned] datetime  NULL,
+    [Username] nvarchar(50)  NULL,
+    [Defect] nvarchar(256)  NULL,
+    [SalesID] int  NULL
+);
+GO
+
+-- Creating table 'Sales'
+CREATE TABLE [dbo].[Sales] (
+    [SalesID] int IDENTITY(1,1) NOT NULL,
+    [ProductID] int  NULL,
+    [CategoryID] nvarchar(50)  NULL,
+    [ColorID] nvarchar(50)  NULL,
+    [Price] decimal(19,4)  NULL,
+    [PaymentID] nvarchar(50)  NULL,
+    [TaxID] nvarchar(50)  NULL,
+    [DateSold] datetime  NULL,
+    [Username] nvarchar(50)  NULL,
+    [TransactionID] int  NOT NULL,
+    [Tax] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'Suppliers'
+CREATE TABLE [dbo].[Suppliers] (
+    [SupplierID] nvarchar(50)  NOT NULL,
+    [SupplierName] nvarchar(50)  NULL,
+    [Address] nvarchar(256)  NULL,
+    [ContactNo] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'TaxRates'
+CREATE TABLE [dbo].[TaxRates] (
+    [TaxID] nvarchar(50)  NOT NULL,
+    [TaxType] nvarchar(50)  NULL,
+    [TaxValue] float  NULL
+);
+GO
+
+-- Creating table 'Warehouses'
+CREATE TABLE [dbo].[Warehouses] (
+    [WarehouseID] nvarchar(50)  NOT NULL,
+    [WarehouseName] nvarchar(50)  NULL,
+    [ContactNo] nvarchar(50)  NULL,
+    [Address] nvarchar(256)  NULL
+);
+GO
+
+-- Creating table 'Transactions'
+CREATE TABLE [dbo].[Transactions] (
+    [TransactionID] int IDENTITY(1,1) NOT NULL,
+    [DateSold] datetime  NULL,
+    [Username] nvarchar(50)  NULL,
+    [TransactionCode] nvarchar(50)  NULL
+);
+GO
+
+-- Creating table 'Admins'
+CREATE TABLE [dbo].[Admins] (
+    [AdminId] int IDENTITY(1,1) NOT NULL,
+    [Username] nvarchar(50)  NULL,
+    [Password] nvarchar(50)  NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [CategoryID] in table 'Categories'
+ALTER TABLE [dbo].[Categories]
+ADD CONSTRAINT [PK_Categories]
+    PRIMARY KEY CLUSTERED ([CategoryID] ASC);
+GO
+
+-- Creating primary key on [ColorID] in table 'Colors'
+ALTER TABLE [dbo].[Colors]
+ADD CONSTRAINT [PK_Colors]
+    PRIMARY KEY CLUSTERED ([ColorID] ASC);
+GO
+
+-- Creating primary key on [LogID] in table 'DataLogs'
+ALTER TABLE [dbo].[DataLogs]
+ADD CONSTRAINT [PK_DataLogs]
+    PRIMARY KEY CLUSTERED ([LogID] ASC);
+GO
+
+-- Creating primary key on [PaymentID] in table 'PaymentTypes'
+ALTER TABLE [dbo].[PaymentTypes]
+ADD CONSTRAINT [PK_PaymentTypes]
+    PRIMARY KEY CLUSTERED ([PaymentID] ASC);
+GO
+
+-- Creating primary key on [ProductID] in table 'Products'
+ALTER TABLE [dbo].[Products]
+ADD CONSTRAINT [PK_Products]
+    PRIMARY KEY CLUSTERED ([ProductID] ASC);
+GO
+
+-- Creating primary key on [ReturnID] in table 'Returns'
+ALTER TABLE [dbo].[Returns]
+ADD CONSTRAINT [PK_Returns]
+    PRIMARY KEY CLUSTERED ([ReturnID] ASC);
+GO
+
+-- Creating primary key on [SalesID] in table 'Sales'
+ALTER TABLE [dbo].[Sales]
+ADD CONSTRAINT [PK_Sales]
+    PRIMARY KEY CLUSTERED ([SalesID] ASC);
+GO
+
+-- Creating primary key on [SupplierID] in table 'Suppliers'
+ALTER TABLE [dbo].[Suppliers]
+ADD CONSTRAINT [PK_Suppliers]
+    PRIMARY KEY CLUSTERED ([SupplierID] ASC);
+GO
+
+-- Creating primary key on [TaxID] in table 'TaxRates'
+ALTER TABLE [dbo].[TaxRates]
+ADD CONSTRAINT [PK_TaxRates]
+    PRIMARY KEY CLUSTERED ([TaxID] ASC);
+GO
+
+-- Creating primary key on [WarehouseID] in table 'Warehouses'
+ALTER TABLE [dbo].[Warehouses]
+ADD CONSTRAINT [PK_Warehouses]
+    PRIMARY KEY CLUSTERED ([WarehouseID] ASC);
+GO
+
+-- Creating primary key on [TransactionID] in table 'Transactions'
+ALTER TABLE [dbo].[Transactions]
+ADD CONSTRAINT [PK_Transactions]
+    PRIMARY KEY CLUSTERED ([TransactionID] ASC);
+GO
+
+-- Creating primary key on [AdminId] in table 'Admins'
+ALTER TABLE [dbo].[Admins]
+ADD CONSTRAINT [PK_Admins]
+    PRIMARY KEY CLUSTERED ([AdminId] ASC);
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- Creating foreign key on [CategoryID] in table 'Products'
+ALTER TABLE [dbo].[Products]
+ADD CONSTRAINT [FK__Products__Catego__5EBF139D]
+    FOREIGN KEY ([CategoryID])
+    REFERENCES [dbo].[Categories]
+        ([CategoryID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Products__Catego__5EBF139D'
+CREATE INDEX [IX_FK__Products__Catego__5EBF139D]
+ON [dbo].[Products]
+    ([CategoryID]);
+GO
+
+-- Creating foreign key on [CategoryID] in table 'Returns'
+ALTER TABLE [dbo].[Returns]
+ADD CONSTRAINT [FK__Returns__Categor__66603565]
+    FOREIGN KEY ([CategoryID])
+    REFERENCES [dbo].[Categories]
+        ([CategoryID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Returns__Categor__66603565'
+CREATE INDEX [IX_FK__Returns__Categor__66603565]
+ON [dbo].[Returns]
+    ([CategoryID]);
+GO
+
+-- Creating foreign key on [CategoryID] in table 'Sales'
+ALTER TABLE [dbo].[Sales]
+ADD CONSTRAINT [FK__Sales__CategoryI__6D0D32F4]
+    FOREIGN KEY ([CategoryID])
+    REFERENCES [dbo].[Categories]
+        ([CategoryID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Sales__CategoryI__6D0D32F4'
+CREATE INDEX [IX_FK__Sales__CategoryI__6D0D32F4]
+ON [dbo].[Sales]
+    ([CategoryID]);
+GO
+
+-- Creating foreign key on [ColorID] in table 'Products'
+ALTER TABLE [dbo].[Products]
+ADD CONSTRAINT [FK__Products__ColorI__6383C8BA]
+    FOREIGN KEY ([ColorID])
+    REFERENCES [dbo].[Colors]
+        ([ColorID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Products__ColorI__6383C8BA'
+CREATE INDEX [IX_FK__Products__ColorI__6383C8BA]
+ON [dbo].[Products]
+    ([ColorID]);
+GO
+
+-- Creating foreign key on [ColorID] in table 'Returns'
+ALTER TABLE [dbo].[Returns]
+ADD CONSTRAINT [FK__Returns__ColorID__6A30C649]
+    FOREIGN KEY ([ColorID])
+    REFERENCES [dbo].[Colors]
+        ([ColorID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Returns__ColorID__6A30C649'
+CREATE INDEX [IX_FK__Returns__ColorID__6A30C649]
+ON [dbo].[Returns]
+    ([ColorID]);
+GO
+
+-- Creating foreign key on [ColorID] in table 'Sales'
+ALTER TABLE [dbo].[Sales]
+ADD CONSTRAINT [FK__Sales__ColorID__70DDC3D8]
+    FOREIGN KEY ([ColorID])
+    REFERENCES [dbo].[Colors]
+        ([ColorID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Sales__ColorID__70DDC3D8'
+CREATE INDEX [IX_FK__Sales__ColorID__70DDC3D8]
+ON [dbo].[Sales]
+    ([ColorID]);
+GO
+
+-- Creating foreign key on [PaymentID] in table 'Returns'
+ALTER TABLE [dbo].[Returns]
+ADD CONSTRAINT [FK__Returns__Payment__68487DD7]
+    FOREIGN KEY ([PaymentID])
+    REFERENCES [dbo].[PaymentTypes]
+        ([PaymentID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Returns__Payment__68487DD7'
+CREATE INDEX [IX_FK__Returns__Payment__68487DD7]
+ON [dbo].[Returns]
+    ([PaymentID]);
+GO
+
+-- Creating foreign key on [PaymentID] in table 'Sales'
+ALTER TABLE [dbo].[Sales]
+ADD CONSTRAINT [FK__Sales__PaymentID__6EF57B66]
+    FOREIGN KEY ([PaymentID])
+    REFERENCES [dbo].[PaymentTypes]
+        ([PaymentID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Sales__PaymentID__6EF57B66'
+CREATE INDEX [IX_FK__Sales__PaymentID__6EF57B66]
+ON [dbo].[Sales]
+    ([PaymentID]);
+GO
+
+-- Creating foreign key on [SupplierID] in table 'Products'
+ALTER TABLE [dbo].[Products]
+ADD CONSTRAINT [FK__Products__Suppli__5FB337D6]
+    FOREIGN KEY ([SupplierID])
+    REFERENCES [dbo].[Suppliers]
+        ([SupplierID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Products__Suppli__5FB337D6'
+CREATE INDEX [IX_FK__Products__Suppli__5FB337D6]
+ON [dbo].[Products]
+    ([SupplierID]);
+GO
+
+-- Creating foreign key on [WarehouseID] in table 'Products'
+ALTER TABLE [dbo].[Products]
+ADD CONSTRAINT [FK__Products__Wareho__59C55456]
+    FOREIGN KEY ([WarehouseID])
+    REFERENCES [dbo].[Warehouses]
+        ([WarehouseID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Products__Wareho__59C55456'
+CREATE INDEX [IX_FK__Products__Wareho__59C55456]
+ON [dbo].[Products]
+    ([WarehouseID]);
+GO
+
+-- Creating foreign key on [ProductID] in table 'Returns'
+ALTER TABLE [dbo].[Returns]
+ADD CONSTRAINT [FK__Returns__Product__693CA210]
+    FOREIGN KEY ([ProductID])
+    REFERENCES [dbo].[Products]
+        ([ProductID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Returns__Product__693CA210'
+CREATE INDEX [IX_FK__Returns__Product__693CA210]
+ON [dbo].[Returns]
+    ([ProductID]);
+GO
+
+-- Creating foreign key on [ProductID] in table 'Sales'
+ALTER TABLE [dbo].[Sales]
+ADD CONSTRAINT [FK__Sales__ProductID__6FE99F9F]
+    FOREIGN KEY ([ProductID])
+    REFERENCES [dbo].[Products]
+        ([ProductID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Sales__ProductID__6FE99F9F'
+CREATE INDEX [IX_FK__Sales__ProductID__6FE99F9F]
+ON [dbo].[Sales]
+    ([ProductID]);
+GO
+
+-- Creating foreign key on [TaxID] in table 'Returns'
+ALTER TABLE [dbo].[Returns]
+ADD CONSTRAINT [FK__Returns__TaxID__6754599E]
+    FOREIGN KEY ([TaxID])
+    REFERENCES [dbo].[TaxRates]
+        ([TaxID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Returns__TaxID__6754599E'
+CREATE INDEX [IX_FK__Returns__TaxID__6754599E]
+ON [dbo].[Returns]
+    ([TaxID]);
+GO
+
+-- Creating foreign key on [TaxID] in table 'Sales'
+ALTER TABLE [dbo].[Sales]
+ADD CONSTRAINT [FK__Sales__TaxID__6E01572D]
+    FOREIGN KEY ([TaxID])
+    REFERENCES [dbo].[TaxRates]
+        ([TaxID])
+    ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+-- Creating non-clustered index for FOREIGN KEY 'FK__Sales__TaxID__6E01572D'
+CREATE INDEX [IX_FK__Sales__TaxID__6E01572D]
+ON [dbo].[Sales]
+    ([TaxID]);
+GO
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

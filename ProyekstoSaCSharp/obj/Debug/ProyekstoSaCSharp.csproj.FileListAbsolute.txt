@@ -1,0 +1,251 @@
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.pdb
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.xml
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.csprojResolveAssemblyReference.cache
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.pdb
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxControlToolkit.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\HtmlAgilityPack.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxMin.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxControlToolkit.pdb
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.xml
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.xml
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.xml
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.xml
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ar\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\cs\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\he\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\hi\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\nl\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pl\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pt\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\tr-TR\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHS\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHT\AjaxControlToolkit.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\gabby\documents\visual studio 2012\Projects\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.dll.config
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.pdb
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\HtmlAgilityPack.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxMin.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxControlToolkit.pdb
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.xml
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.xml
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.xml
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.xml
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.csprojResolveAssemblyReference.cache
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.dll
+C:\Users\SENPAI\Videos\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.pdb
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.pdb
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\HtmlAgilityPack.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxMin.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxControlToolkit.pdb
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.xml
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.xml
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.xml
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.xml
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.csprojResolveAssemblyReference.cache
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.dll
+C:\Users\Kent\Downloads\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.pdb
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.dll.config
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ProyekstoSaCSharp.pdb
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\HtmlAgilityPack.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxMin.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\AjaxControlToolkit.pdb
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\EntityFramework.xml
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.OData.xml
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\Microsoft.Data.Edm.xml
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\System.Spatial.xml
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pl\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\de\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\es\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\fr\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\it\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ja\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ko\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\ru\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.csprojResolveAssemblyReference.cache
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.dll
+C:\Users\SENPAI\Downloads\ProjectFINAL\ProjectFINAL\ProyekstoSaCSharp\ProyekstoSaCSharp\obj\Debug\ProyekstoSaCSharp.pdb

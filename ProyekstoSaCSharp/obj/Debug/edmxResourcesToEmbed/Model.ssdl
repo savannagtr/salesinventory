@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SalesInventoryModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="SalesInventoryModelStoreContainer">
+    <EntitySet Name="Category" EntityType="SalesInventoryModel.Store.Category" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Colors" EntityType="SalesInventoryModel.Store.Colors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DataLogs" EntityType="SalesInventoryModel.Store.DataLogs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PaymentType" EntityType="SalesInventoryModel.Store.PaymentType" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Products" EntityType="SalesInventoryModel.Store.Products" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Returns" EntityType="SalesInventoryModel.Store.Returns" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sales" EntityType="SalesInventoryModel.Store.Sales" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Suppliers" EntityType="SalesInventoryModel.Store.Suppliers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TaxRate" EntityType="SalesInventoryModel.Store.TaxRate" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Warehouse" EntityType="SalesInventoryModel.Store.Warehouse" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__Products__Catego__5EBF139D" Association="SalesInventoryModel.Store.FK__Products__Catego__5EBF139D">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Products__ColorI__6383C8BA" Association="SalesInventoryModel.Store.FK__Products__ColorI__6383C8BA">
+      <End Role="Colors" EntitySet="Colors" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Products__Suppli__5FB337D6" Association="SalesInventoryModel.Store.FK__Products__Suppli__5FB337D6">
+      <End Role="Suppliers" EntitySet="Suppliers" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Products__Wareho__59C55456" Association="SalesInventoryModel.Store.FK__Products__Wareho__59C55456">
+      <End Role="Warehouse" EntitySet="Warehouse" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Returns__Categor__66603565" Association="SalesInventoryModel.Store.FK__Returns__Categor__66603565">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Returns" EntitySet="Returns" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Returns__ColorID__6A30C649" Association="SalesInventoryModel.Store.FK__Returns__ColorID__6A30C649">
+      <End Role="Colors" EntitySet="Colors" />
+      <End Role="Returns" EntitySet="Returns" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Returns__Payment__68487DD7" Association="SalesInventoryModel.Store.FK__Returns__Payment__68487DD7">
+      <End Role="PaymentType" EntitySet="PaymentType" />
+      <End Role="Returns" EntitySet="Returns" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Returns__Product__693CA210" Association="SalesInventoryModel.Store.FK__Returns__Product__693CA210">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Returns" EntitySet="Returns" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Returns__TaxID__6754599E" Association="SalesInventoryModel.Store.FK__Returns__TaxID__6754599E">
+      <End Role="TaxRate" EntitySet="TaxRate" />
+      <End Role="Returns" EntitySet="Returns" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__CategoryI__6D0D32F4" Association="SalesInventoryModel.Store.FK__Sales__CategoryI__6D0D32F4">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__ColorID__70DDC3D8" Association="SalesInventoryModel.Store.FK__Sales__ColorID__70DDC3D8">
+      <End Role="Colors" EntitySet="Colors" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__PaymentID__6EF57B66" Association="SalesInventoryModel.Store.FK__Sales__PaymentID__6EF57B66">
+      <End Role="PaymentType" EntitySet="PaymentType" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__ProductID__6FE99F9F" Association="SalesInventoryModel.Store.FK__Sales__ProductID__6FE99F9F">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sales__TaxID__6E01572D" Association="SalesInventoryModel.Store.FK__Sales__TaxID__6E01572D">
+      <End Role="TaxRate" EntitySet="TaxRate" />
+      <End Role="Sales" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="Colors">
+    <Key>
+      <PropertyRef Name="ColorID" />
+    </Key>
+    <Property Name="ColorID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ColorName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DataLogs">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LogDate" Type="date" />
+  </EntityType>
+  <EntityType Name="PaymentType">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="PaymentType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="50" />
+    <Property Name="CategoryID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ColorID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="money" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+    <Property Name="SupplierID" Type="nvarchar" MaxLength="50" />
+    <Property Name="WarehouseID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateAdded" Type="date" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Returns">
+    <Key>
+      <PropertyRef Name="ReturnID" />
+    </Key>
+    <Property Name="ReturnID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="int" />
+    <Property Name="CategoryID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ColorID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="money" />
+    <Property Name="TaxID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PaymentID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+    <Property Name="DateReturned" Type="date" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sales">
+    <Key>
+      <PropertyRef Name="SalesID" />
+    </Key>
+    <Property Name="SalesID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="int" />
+    <Property Name="CategoryID" Type="nvarchar" MaxLength="50" />
+    <Property Name="ColorID" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="money" />
+    <Property Name="PaymentID" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxID" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateSold" Type="date" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Suppliers">
+    <Key>
+      <PropertyRef Name="SupplierID" />
+    </Key>
+    <Property Name="SupplierID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SupplierName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="256" />
+    <Property Name="ContactNo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TaxRate">
+    <Key>
+      <PropertyRef Name="TaxID" />
+    </Key>
+    <Property Name="TaxID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="TaxType" Type="nvarchar" MaxLength="50" />
+    <Property Name="TaxValue" Type="float" />
+  </EntityType>
+  <EntityType Name="Warehouse">
+    <Key>
+      <PropertyRef Name="WarehouseID" />
+    </Key>
+    <Property Name="WarehouseID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="WarehouseName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContactNo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <Association Name="FK__Products__Catego__5EBF139D">
+    <End Role="Category" Type="SalesInventoryModel.Store.Category" Multiplicity="0..1" />
+    <End Role="Products" Type="SalesInventoryModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Products__ColorI__6383C8BA">
+    <End Role="Colors" Type="SalesInventoryModel.Store.Colors" Multiplicity="0..1" />
+    <End Role="Products" Type="SalesInventoryModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Colors">
+        <PropertyRef Name="ColorID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="ColorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Products__Suppli__5FB337D6">
+    <End Role="Suppliers" Type="SalesInventoryModel.Store.Suppliers" Multiplicity="0..1" />
+    <End Role="Products" Type="SalesInventoryModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Suppliers">
+        <PropertyRef Name="SupplierID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="SupplierID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Products__Wareho__59C55456">
+    <End Role="Warehouse" Type="SalesInventoryModel.Store.Warehouse" Multiplicity="0..1" />
+    <End Role="Products" Type="SalesInventoryModel.Store.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Warehouse">
+        <PropertyRef Name="WarehouseID" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="WarehouseID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Returns__Categor__66603565">
+    <End Role="Category" Type="SalesInventoryModel.Store.Category" Multiplicity="0..1" />
+    <End Role="Returns" Type="SalesInventoryModel.Store.Returns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Returns">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Returns__ColorID__6A30C649">
+    <End Role="Colors" Type="SalesInventoryModel.Store.Colors" Multiplicity="0..1" />
+    <End Role="Returns" Type="SalesInventoryModel.Store.Returns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Colors">
+        <PropertyRef Name="ColorID" />
+      </Principal>
+      <Dependent Role="Returns">
+        <PropertyRef Name="ColorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Returns__Payment__68487DD7">
+    <End Role="PaymentType" Type="SalesInventoryModel.Store.PaymentType" Multiplicity="0..1" />
+    <End Role="Returns" Type="SalesInventoryModel.Store.Returns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentType">
+        <PropertyRef Name="PaymentID" />
+      </Principal>
+      <Dependent Role="Returns">
+        <PropertyRef Name="PaymentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Returns__Product__693CA210">
+    <End Role="Products" Type="SalesInventoryModel.Store.Products" Multiplicity="0..1" />
+    <End Role="Returns" Type="SalesInventoryModel.Store.Returns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="Returns">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Returns__TaxID__6754599E">
+    <End Role="TaxRate" Type="SalesInventoryModel.Store.TaxRate" Multiplicity="0..1" />
+    <End Role="Returns" Type="SalesInventoryModel.Store.Returns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxRate">
+        <PropertyRef Name="TaxID" />
+      </Principal>
+      <Dependent Role="Returns">
+        <PropertyRef Name="TaxID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__CategoryI__6D0D32F4">
+    <End Role="Category" Type="SalesInventoryModel.Store.Category" Multiplicity="0..1" />
+    <End Role="Sales" Type="SalesInventoryModel.Store.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__ColorID__70DDC3D8">
+    <End Role="Colors" Type="SalesInventoryModel.Store.Colors" Multiplicity="0..1" />
+    <End Role="Sales" Type="SalesInventoryModel.Store.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Colors">
+        <PropertyRef Name="ColorID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="ColorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__PaymentID__6EF57B66">
+    <End Role="PaymentType" Type="SalesInventoryModel.Store.PaymentType" Multiplicity="0..1" />
+    <End Role="Sales" Type="SalesInventoryModel.Store.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PaymentType">
+        <PropertyRef Name="PaymentID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="PaymentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__ProductID__6FE99F9F">
+    <End Role="Products" Type="SalesInventoryModel.Store.Products" Multiplicity="0..1" />
+    <End Role="Sales" Type="SalesInventoryModel.Store.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sales__TaxID__6E01572D">
+    <End Role="TaxRate" Type="SalesInventoryModel.Store.TaxRate" Multiplicity="0..1" />
+    <End Role="Sales" Type="SalesInventoryModel.Store.Sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TaxRate">
+        <PropertyRef Name="TaxID" />
+      </Principal>
+      <Dependent Role="Sales">
+        <PropertyRef Name="TaxID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
